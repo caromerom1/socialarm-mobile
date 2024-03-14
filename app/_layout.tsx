@@ -54,6 +54,7 @@ function RootLayoutNav() {
     colors: {
       ...DefaultTheme.colors,
       primary: "#006B3C",
+      primaryContainer: "#006B3C",
       onSurface: "#FFFFFF",
       surface: "#C8EABB",
     },
@@ -63,6 +64,7 @@ function RootLayoutNav() {
     <PaperProvider theme={theme}>
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
+        <Stack.Screen name="dashboard/index" options={{ headerShown: false }} />
         <Stack.Screen name="register/index" options={{ headerShown: false }} />
         <Stack.Screen name="register/confirmation" options={{ headerShown: false }} />
       </Stack>

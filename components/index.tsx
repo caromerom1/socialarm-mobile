@@ -1,6 +1,8 @@
+import { AlarmList } from "./AlarmList";
 import { CheckMark } from "./CheckMark";
+import { Logout } from "./Logout";
 import { SociAlarmLogo } from "./SociAlarmLogo";
 import { TextInput } from "./TextInput";
 import { Text, View } from "./Themed";
 
-export { CheckMark, SociAlarmLogo, Text, TextInput, View };
+export { AlarmList, CheckMark, Logout, SociAlarmLogo, Text, TextInput, View };

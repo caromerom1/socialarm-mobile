@@ -30,7 +30,13 @@ export default function LoginPage() {
         <Button
           mode="contained"
           buttonColor="#93B487"
-          onPress={() => console.warn("Ingresar")}
+          onPress={() => {
+            setLoading(true);
+            setTimeout(() => {
+              setLoading(false);
+              router.replace("/dashboard/");
+            }, 3000);
+          }}
         >
           Ingresar
         </Button>
