@@ -24,6 +24,7 @@ export default function RegisterPage() {
             iconColor="#006B3C"
             iconStyle={styles.datePickerIcon}
             style={styles.datePicker}
+            contentStyle={styles.datePickerContent}
             saveLabel="Guardar"
             selectionColor="#006B3C"
             activeOutlineColor="#006B3C"
@@ -80,11 +81,13 @@ const styles = StyleSheet.create({
   },
   datePicker: {
     backgroundColor: "white",
-    paddingTop: 5,
-    paddingBottom: 5,
+    height: 60,
+  },
+  datePickerContent: {
+    height: 60,
   },
   datePickerIcon: {
-    marginTop: 21,
+    marginTop: 18,
   },
   buttonContainer: {
     width: "100%",

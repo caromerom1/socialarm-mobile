@@ -12,7 +12,7 @@ export default function HomePage() {
       <SafeAreaView style={styles.page}>
         <Appbar style={styles.appbar}>
           <Appbar.Action icon="menu" color="#62a387" />
-          <Appbar.Content title="Febrero" />
+          <Appbar.Content title="Febrero" color="white" />
           <Logout
             onPress={() => {
               router.replace("/");
