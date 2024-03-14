@@ -74,6 +74,10 @@ function RootLayoutNav() {
         />
         <Stack.Screen name="event/create" options={{ headerShown: false }} />
         <Stack.Screen name="event/detail" options={{ headerShown: false }} />
+        <Stack.Screen
+          name="delete/confirmation"
+          options={{ headerShown: false }}
+        />
       </Stack>
     </PaperProvider>
   );

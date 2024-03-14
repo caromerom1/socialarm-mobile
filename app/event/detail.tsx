@@ -110,7 +110,16 @@ export default function AlarmDetailPage() {
               {isEditing ? "Guardar" : "Editar"}
             </Button>
             {!isEditing && (
-              <Button mode="text" textColor="#008080" onPress={() => {}}>
+              <Button
+                mode="text"
+                textColor="#008080"
+                onPress={() => {
+                  router.replace("/delete/confirmation");
+                  setTimeout(() => {
+                    router.replace("/dashboard/");
+                  }, 5000);
+                }}
+              >
                 Eliminar
               </Button>
             )}
