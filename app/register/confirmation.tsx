@@ -28,5 +28,6 @@ const styles = StyleSheet.create({
   },
   checkmarkContainer: {
     transform: [{ translateX: 12 }],
+    backgroundColor: "transparent",
   },
 });

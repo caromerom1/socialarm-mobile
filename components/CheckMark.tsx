@@ -1,4 +1,4 @@
-import { ClipPath, Defs, G, Path, Rect, Svg } from "react-native-svg";
+import { Path, Svg } from "react-native-svg";
 
 export const CheckMark = () => {
   return (
