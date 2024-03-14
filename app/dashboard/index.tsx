@@ -28,6 +28,7 @@ export default function HomePage() {
           color="white"
           variant="primary"
           mode="flat"
+          onPress={() => router.push("/event/create")}
         />
       </SafeAreaView>
     </View>

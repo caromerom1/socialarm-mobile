@@ -53,10 +53,12 @@ function RootLayoutNav() {
     ...DefaultTheme,
     colors: {
       ...DefaultTheme.colors,
+      onPrimaryContainer: "black",
       primary: "#006B3C",
       primaryContainer: "#006B3C",
-      onSurface: "#FFFFFF",
+      secondaryContainer: "#D1D1D1",
       surface: "#C8EABB",
+      surfaceVariant: "#E7E7E7",
     },
   };
 
@@ -67,6 +69,7 @@ function RootLayoutNav() {
         <Stack.Screen name="dashboard/index" options={{ headerShown: false }} />
         <Stack.Screen name="register/index" options={{ headerShown: false }} />
         <Stack.Screen name="register/confirmation" options={{ headerShown: false }} />
+        <Stack.Screen name="event/create" options={{ headerShown: false }} />
       </Stack>
     </PaperProvider>
   );

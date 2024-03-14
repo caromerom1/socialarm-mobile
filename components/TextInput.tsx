@@ -8,7 +8,8 @@ export const TextInput: React.FC<TextInputProps> = (props) => (
     mode="outlined"
     outlineColor="#006B3C"
     activeOutlineColor="#006B3C"
-    style={{ backgroundColor: 'white', width: '100%', height: 56 }}
+    textColor="black"
+    style={{ backgroundColor: "white", width: "100%", height: 56 }}
     {...props}
   />
 );
