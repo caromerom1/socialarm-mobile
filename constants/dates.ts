@@ -12,7 +12,7 @@ export const dates: DateEvent[] = [
     dayName: "Jue",
     events: ["Entrega UX"],
     clickAction: () => {
-      router.replace("/event/edit");
+      router.push("/event/detail");
     },
   },
   {
@@ -50,7 +50,7 @@ export const dates: DateEvent[] = [
     dayName: "Jue",
     events: ["Entrega UX"],
     clickAction: () => {
-      router.replace("/event/edit");
+      router.push("/event/detail");
     },
   },
   {

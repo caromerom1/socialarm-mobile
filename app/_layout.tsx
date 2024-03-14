@@ -68,8 +68,12 @@ function RootLayoutNav() {
         <Stack.Screen name="index" options={{ headerShown: false }} />
         <Stack.Screen name="dashboard/index" options={{ headerShown: false }} />
         <Stack.Screen name="register/index" options={{ headerShown: false }} />
-        <Stack.Screen name="register/confirmation" options={{ headerShown: false }} />
+        <Stack.Screen
+          name="register/confirmation"
+          options={{ headerShown: false }}
+        />
         <Stack.Screen name="event/create" options={{ headerShown: false }} />
+        <Stack.Screen name="event/detail" options={{ headerShown: false }} />
       </Stack>
     </PaperProvider>
   );
